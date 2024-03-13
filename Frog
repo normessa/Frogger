@@ -17,6 +17,7 @@ class Frog extends Rectangle{ //the frog is the rectangle, it inherits the recta
     }
     
     frog.x = constrain(x, 0, width-w);
+    frog.y = constrain(y,0,height-h);
   }
   
   void show() {
