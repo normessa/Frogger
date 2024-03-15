@@ -56,12 +56,12 @@ void setup(){
       float x = i * 400 + 10;
       logs[index] = new Log(x, height-grid*8, grid*4, grid, 0.5);  
       index++;
-    }       
+    }     
 }
 
 void draw(){
   background(0);
-  fill(255, 100);
+  fill(255);
   rect(0,0,width,grid*2);
   rect(0,height-grid,width,grid);
   rect(0,height-grid*5,width,grid);
@@ -107,5 +107,7 @@ void keyPressed(){
     frog.move(1,0);
   }else if(keyCode == LEFT) {
     frog.move(-1,0);
+  }
+}
   }
 }
