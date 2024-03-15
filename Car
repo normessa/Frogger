@@ -16,7 +16,7 @@ class Car extends Rectangle {
   }
   
     void show() {
-    fill(200);
+    fill(144, 212, 198);
     rect(x,y,w,h);
   }
   
